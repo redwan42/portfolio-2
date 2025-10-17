@@ -1,8 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio Redwan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fafafa; }
+    header { background-color:#333; color:white; padding: 10px; text-align: center; }
+    nav a { color:white; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    section { margin-bottom: 30px; }
+    h2 { color: #333; border-bottom: 2px solid #333; padding-bottom: 5px; }
+    ul { list-style: square; }
+    img { max-width: 150px; border-radius: 8px; }
+    footer { background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 30px; }
+    .btn { display: inline-block; background: #333; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none; }
+    .btn:hover { background: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Portofolio <strong>Redwan</strong> . </p>
+      <img src="ma-photo.jpg" alt="photo">
+    </section>
+
+  
+  
   <style>
     #competences {
       display: flex;
@@ -48,5 +84,38 @@
       <li>Git & GitHub</li>
     </ul>
   </section>
+</body>
+</html>
+
+
+
+
+
+</style
+    display flex
+
+
+
+  
+  
+  <section id="projects">
+      <h2>Mes projets</h2>
+      <ul>
+        <li>page d’accueil  <a href="#" class="btn"  >Voir</a></li>
+        <li> CV en ligne <a href="#" class="btn">Voir</a></li>
+        <li>Une page avec liens  <a href="#" class="btn">Voir</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Envoie un mail :</p>
+      <a class="btn" href="mailto:ton.email@example.com"> écrire</a>
+    </section>
+  </main>
+
+  <footer>
+    <p> /p>
+  </footer>
 </body>
 </html>
