@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon Portfolio (niveau 4h HTML)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fafafa; }
+    header { background-color: #333; color: white; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    section { margin-bottom: 30px; }
+    h2 { color: #333; border-bottom: 2px solid #333; padding-bottom: 5px; }
+    ul { list-style: square; }
+    img { max-width: 150px; border-radius: 8px; }
+    footer { background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 30px; }
+    .btn { display: inline-block; background: #333; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none; }
+    .btn:hover { background: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Salut, moi c’est <strong>Ton Nom</strong> 👋. J’ai commencé le HTML y’a 4 heures. Je découvre comment faire des pages simples.</p>
+      <img src="ma-photo.jpg" alt="Ma photo">
+    </section>
+
+    <section id="projects">
+      <h2>Mes projets</h2>
+      <p>Voici quelques trucs que j’ai faits pour apprendre :</p>
+      <ul>
+        <li>Une page d’accueil basique <a href="#" class="btn">Voir</a></li>
+        <li>Un petit CV en ligne <a href="#" class="btn">Voir</a></li>
+        <li>Une page avec mes liens favoris <a href="#" class="btn">Voir</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Tu veux me parler ? Envoie-moi un mail :</p>
+      <a class="btn" href="mailto:ton.email@example.com">M’écrire</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ton Nom — Fait avec 💻 et du café</p>
+  </footer>
+</body>
+</html>
