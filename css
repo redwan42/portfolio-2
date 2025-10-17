@@ -1,1 +1,52 @@
-dsd
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Redwan</title>
+  <style>
+    #competences {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .icon-competences {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+    }
+
+    .icon-competences li {
+      flex: 1 1 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 14px;
+      border: 1px solid #20242b;
+      border-radius: 10px;
+      background: #14171c;
+      color: #e9ecf1;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="competences" role="region" aria-labelledby="titre-competences">
+    <h2 id="titre-competences">Compétences</h2>
+    <ul class="icon-competences">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Responsive</li>
+      <li>Accessibilité</li>
+      <li>JavaScript</li>
+      <li>Laravel</li>
+      <li>MySQL</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+</body>
+</html>
